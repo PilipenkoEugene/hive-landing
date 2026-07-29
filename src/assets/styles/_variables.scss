@@ -1,0 +1,36 @@
+// Colors
+$color-primary: #F3B441;
+$color-primary-hover: #E5A832;
+$color-primary-active: #D49B28;
+$color-dark: #202229;
+$color-light: #FCFCFB;
+$color-gray: #8A8B91;
+$color-gray-light: #E8E8EA;
+
+// Typography — единая гарнитура как в фирменных презентациях,
+// заголовки отличаются весом (800), не шрифтом
+$font-family: 'Manrope', 'Inter', sans-serif;
+$font-display: 'Manrope', 'Inter', sans-serif;
+$font-size-h1: 56px;
+$font-size-h2: 40px;
+$font-size-h3: 24px;
+$font-size-body: 16px;
+$font-size-small: 14px;
+$font-size-caption: 12px;
+
+// Breakpoints
+$breakpoint-mobile: 768px;
+$breakpoint-tablet: 1024px;
+$breakpoint-desktop: 1200px;
+
+// Border radius
+$border-radius-sm: 8px;
+$border-radius-md: 16px;
+$border-radius-lg: 24px;
+
+// Shadows
+$shadow-card: 0 4px 24px rgba(32, 34, 41, 0.08);
+$shadow-card-hover: 0 8px 40px rgba(32, 34, 41, 0.12);
+
+// Container
+$container-max-width: 1200px;

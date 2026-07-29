@@ -1,0 +1,12 @@
+@use 'reset';
+@use 'variables' as *;
+
+.container {
+  max-width: $container-max-width;
+  margin: 0 auto;
+  padding: 0 24px;
+
+  @media (max-width: #{$breakpoint-mobile - 1}) {
+    padding: 0 16px;
+  }
+}

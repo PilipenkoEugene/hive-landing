@@ -1,0 +1,294 @@
+{
+  "meta": {
+    "title": "Hive — turar-joy majmualarini boshqarish platformasi"
+  },
+  "header": {
+    "features": "Imkoniyatlar",
+    "audience": "Kimlar uchun",
+    "screenshots": "Skrinshotlar",
+    "contacts": "Aloqa"
+  },
+  "hero": {
+    "eyebrow": "Boshqaruv kompaniyalari va aholi uchun PropTech-platforma",
+    "titleStart": "Turar-joy majmualarini boshqarish uchun",
+    "titleAccent": "yagona platforma",
+    "subtitle": "Boshqaruv kompaniyalari va aholini bitta ilovada bog'laymiz. Muloqot, to'lovlar, xizmatlar — hammasi bir joyda",
+    "cta": "Demo so'rash",
+    "ctaSecondary": "Platforma nimalarga qodir",
+    "story": [
+      "Aholi uchun bosh ekran",
+      "Uy yangiliklari va arizalar",
+      "Kommunal xizmatlar va balans"
+    ]
+  },
+  "features": {
+    "eyebrow": "Hive nimalarga qodir",
+    "title": "Platforma imkoniyatlari",
+    "items": [
+      {
+        "title": "TJM boshqaruvi",
+        "description": "Turar-joy majmualari, binolar, kirish joylari va kvartiralarni yagona tizimda yarating va boshqaring. Obyektlar tuzilmasi ustidan to'liq nazorat."
+      },
+      {
+        "title": "Kommunal hisob-kitoblar",
+        "description": "Aholi barcha hisob-kitoblarni ilovada ko'radi. To'lovlarning shaffof tarixi va yangi hisoblar haqida bildirishnomalar."
+      },
+      {
+        "title": "Ijtimoiy tarmoq",
+        "description": "Aholi uchun ichki yangiliklar lentasi. Postlar, izohlar, layklar — qo'shnilar va BK bilan muloqot uchun hammasi."
+      },
+      {
+        "title": "Xizmatlar marketpleysi",
+        "description": "Aholi kvartira uchun xizmatlarni to'g'ridan-to'g'ri ilovadan buyurtma qiladi: tozalash, ta'mirlash, santexnika va boshqalar."
+      },
+      {
+        "title": "Dispetcherlik xizmati",
+        "description": "Hodisalar va nosozliklar bo'yicha arizalarni qabul qilish. Murojaatlar holatini real vaqtda kuzatish."
+      },
+      {
+        "title": "Kirish huquqlari tizimi",
+        "description": "Aholi, xodimlar va mehmonlar uchun rollar va huquqlarni moslashuvchan sozlash. Kirish darajalari ustidan to'liq nazorat."
+      },
+      {
+        "title": "Ruxsatnomalar tizimi",
+        "description": "TJM hududiga ruxsatnomalarni masofadan yaratish va boshqarish. Mehmonlar va kuryerlar uchun tezkor kirish."
+      },
+      {
+        "title": "Ko'p foydalanuvchilar",
+        "description": "Bitta kvartiraga bir nechta aholi. Har bir oila a'zosi o'z huquqlari bilan kirish oladi."
+      }
+    ]
+  },
+  "audience": {
+    "eyebrow": "Auditoriya",
+    "title": "Hive kimlar uchun",
+    "items": [
+      {
+        "title": "Boshqaruv kompaniyalari",
+        "description": "Turar-joy majmualari ustidan to'liq nazorat. Kundalik jarayonlarni avtomatlashtirish, aholi bilan tezkor aloqa, raqamli dispetcherlik va tahlil."
+      },
+      {
+        "title": "Quruvchi kompaniyalar",
+        "description": "Yangi obyektlar uchun tayyor raqamli infratuzilma. Bino bilan birga tayyor ekotizimni boshqaruv kompaniyalariga topshiring."
+      },
+      {
+        "title": "Aholi",
+        "description": "Kundalik hayot uchun qulay ilova: kommunal to'lovlar, xizmat arizalari, qo'shnilar bilan muloqot, xizmatlarga buyurtma — hammasi bir joyda."
+      }
+    ]
+  },
+  "screenshots": {
+    "eyebrow": "Mahsulot amalda",
+    "title": "Bu qanday ko'rinadi",
+    "slides": [
+      {
+        "label": "Boshqaruv kompaniyasi dashbordi",
+        "file": "Dashboard.png",
+        "type": "web"
+      },
+      {
+        "label": "Aholi uchun bosh ekran",
+        "file": "screen3.jpeg",
+        "type": "mobile"
+      },
+      {
+        "label": "Aholi arizalari",
+        "file": "Tickets.png",
+        "type": "web"
+      },
+      {
+        "label": "Kommunal xizmatlar",
+        "file": "screen2.jpeg",
+        "type": "mobile"
+      }
+    ]
+  },
+  "calculator": {
+    "eyebrow": "Biznes uchun samara",
+    "title": "Kompaniyangiz uchun samarani hisoblang",
+    "aptLabel": "Boshqaruvdagi kvartiralar",
+    "billLabel": "Har kvartiraga o'rtacha oylik kommunal to'lov, $",
+    "resultLabel": "Qo'shimcha yig'iluvchanlik",
+    "unit": "oyiga",
+    "resultNote": "yig'iluvchanlik 5–15% ga o'sganda",
+    "extra1": "Dispetcherlik xarajatlari 40–60% ga kamayadi — kundalik ishlarni AI o'z zimmasiga oladi",
+    "extra2": "Quruvchining takroriy sotuvlari 15–20% ga o'sadi",
+    "disclaimer": "Haqiqiy joriy etishlar oralig'iga asoslangan taxminiy baho. Aniq raqamlar — sizning uylar portfelingiz uchun demoda.",
+    "unitK": "ming, oyiga"
+  },
+  "roadmap": {
+    "eyebrow": "Rivojlanish istiqboli",
+    "title": "Hive qayerga o'smoqda",
+    "items": [
+      {
+        "title": "AI-operatsiyalar",
+        "points": [
+          "AI-konsyerj: aholi bilan 24/7 muloqot",
+          "Arizalarni tasniflash va yo'naltirish",
+          "Fikrlar va NPS bo'yicha sifat nazorati",
+          "Debitorlik qarzini prognozlash"
+        ]
+      },
+      {
+        "title": "Binoning raqamli egizagi",
+        "points": [
+          "Kommunikatsiyalar: suv, gaz, elektr",
+          "Uskunalar: liftlar, nasoslar, uzellar",
+          "Ta'mirlash tarixi va TX sanalari",
+          "Buzilishdan oldin prediktiv ogohlantirishlar"
+        ]
+      },
+      {
+        "title": "Smart-tizimlar",
+        "points": [
+          "Yuzni tanish orqali kirish",
+          "Ilovada videokuzatuv",
+          "Shlagbaumlar va raqamlarni aniqlash",
+          "Kvartirada iqlim va datchiklar"
+        ]
+      }
+    ],
+    "outro": "Kundalik ishlarni AI yuritadi — 24/7, o'zbek va rus tillarida. Inson faqat istisnolarga ulanadi."
+  },
+  "stats": {
+    "items": [
+      {
+        "value": "500",
+        "suffix": "+",
+        "label": "Boshqaruv kompaniyalari"
+      },
+      {
+        "value": "2000",
+        "suffix": "+",
+        "label": "Turar-joy majmualari"
+      },
+      {
+        "value": "150000",
+        "suffix": "+",
+        "label": "Aholi"
+      },
+      {
+        "value": "99.9",
+        "suffix": "%",
+        "label": "Tizim uptime"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bitta TJMda bepul pilotdan boshlang",
+    "text": "Bir necha haftada joriy etamiz: platforma haqiqiy aholida qanday ishlashini ko'rasiz va shundan keyingina qaror qabul qilasiz.",
+    "button": "Telegramga yozish",
+    "steps": [
+      {
+        "title": "Qo'ng'iroq",
+        "text": "Portfelingizni muhokama qilamiz va pilot uchun TJM tanlaymiz."
+      },
+      {
+        "title": "Brendlash",
+        "text": "Platformani brendingiz ostida joylashtiramiz — o'z tomonimizda."
+      },
+      {
+        "title": "Ishga tushirish",
+        "text": "Aholi va BK foydalanishni boshlaydi — bepul."
+      }
+    ],
+    "buttonVk": "VKda yozish"
+  },
+  "footer": {
+    "description": "Turar-joy majmualarini boshqarish uchun yagona platforma",
+    "navigation": "Navigatsiya",
+    "contactsTitle": "Aloqa",
+    "social": "Ijtimoiy tarmoqlar",
+    "copyright": "© 2026 Hive. Barcha huquqlar himoyalangan."
+  },
+  "strip": {
+    "items": [
+      {
+        "k": "Ishga tushirish",
+        "v": "Yillar emas, haftalar"
+      },
+      {
+        "k": "Ilovalar",
+        "v": "Aholi · xodim · admin"
+      },
+      {
+        "k": "Brend",
+        "v": "White-label — to'liq sizniki"
+      },
+      {
+        "k": "Geografiya",
+        "v": "O'zbekiston · Qozog'iston · Armaniston · Rossiya"
+      }
+    ]
+  },
+  "problem": {
+    "eyebrow": "Hozir nima bo‘lmoqda",
+    "title": "Uy topshirildi — aholi bilan aloqa uzildi",
+    "lede": "Quruvchi mahsulot va brendga sarmoya kiritdi, ammo kalitlarni topshirgach mijozni ham, ma'lumotlarni ham, daromadni ham yo'qotadi.",
+    "items": [
+      {
+        "title": "Takroriy sotuvlar yo'q",
+        "description": "Aholi kvartira sotib oldi — va g'oyib bo'ldi. Unga ikkinchisini, omborxona, avtoturargoh yoki xizmatlarni sotish kanali yo'q."
+      },
+      {
+        "title": "BK tartibsizlikda ishlaydi",
+        "description": "Chatlar, jadvallar, qo'ng'iroqlar. Arizalar yo'qoladi, shikoyatlar to'planadi, brend obro'si zarar ko'radi."
+      },
+      {
+        "title": "Aholi haqida ma'lumot yo'q",
+        "description": "Kim yashaydi, nimadan foydalanadi, nimani sotib olishga tayyor — noma'lum."
+      },
+      {
+        "title": "Servis daromad keltirmaydi",
+        "description": "Ekspluatatsiya daromad manbai emas, xarajat markazi bo'lib qolmoqda."
+      }
+    ]
+  },
+  "geo": {
+    "eyebrow": "Geografiya",
+    "title": "Platforma allaqachon ishlamoqda",
+    "items": [
+      {
+        "status": "Ishga tushgan",
+        "title": "O'zbekiston",
+        "description": "Sanoat ekspluatatsiyasida: aholi va BK ilovada har kuni ishlaydi."
+      },
+      {
+        "status": "Joriy etilmoqda",
+        "title": "Rossiya",
+        "description": "Mijoz brendi ostida joylashtirish va obyektlarni ulash davom etmoqda."
+      },
+      {
+        "status": "Ishga tushirish",
+        "title": "Qozog'iston",
+        "description": "Ishga tushirishga tayyorgarlik: to'lovlarni lokalizatsiya qilish va brendlash."
+      },
+      {
+        "status": "Ishga tushirish",
+        "title": "Armaniston",
+        "description": "Birinchi obyektlar ishga tushirishga tayyorlanmoqda."
+      }
+    ]
+  },
+  "compare": {
+    "eyebrow": "Taqqoslash",
+    "title": "O'z dasturingizni yozish — yillarga cho'zilgan qurilish",
+    "ownTitle": "O'z dasturini yozish",
+    "hiveTitle": "Hive white-label",
+    "own": [
+      "Ishlaydigan mahsulotgacha 1,5–2 yil",
+      "Doimiy ishlab chiqish, dizayn va texnik yordam jamoasi",
+      "O'nlab modullar va mobil ilovalar noldan",
+      "Oxiriga yetkazmaslik yoki xom mahsulot olish xavfi",
+      "Qollab-quvvatlash va rivojlantirish — doimo sizda"
+    ],
+    "hive": [
+      "Haftalar ichida ishga tushirish",
+      "Haqiqiy aholida sinalgan tayyor ilovalar",
+      "Platformani rivojlantirish — bizning vazifamiz",
+      "Oldindan aytib beriladigan narx",
+      "IT emas, biznesingizga fokus"
+    ],
+    "note": "Siz qurilish emas, natija olasiz."
+  }
+}

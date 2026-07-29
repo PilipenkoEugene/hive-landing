@@ -1,0 +1,294 @@
+{
+  "meta": {
+    "title": "Hive — Residential complex management platform"
+  },
+  "header": {
+    "features": "Features",
+    "audience": "Who it's for",
+    "screenshots": "Screenshots",
+    "contacts": "Contacts"
+  },
+  "hero": {
+    "eyebrow": "PropTech platform for property managers and residents",
+    "titleStart": "All-in-one platform for managing",
+    "titleAccent": "residential complexes",
+    "subtitle": "Connecting property managers and residents in one app. Communication, payments, services — all in one place",
+    "cta": "Request a demo",
+    "ctaSecondary": "What the platform does",
+    "story": [
+      "Resident home screen",
+      "Building news and requests",
+      "Utility services and balance"
+    ]
+  },
+  "features": {
+    "eyebrow": "What Hive can do",
+    "title": "Platform features",
+    "items": [
+      {
+        "title": "Complex management",
+        "description": "Create and manage residential complexes, buildings, entrances and apartments in a single system. Full control over your property structure."
+      },
+      {
+        "title": "Utility billing",
+        "description": "Residents view all charges in the app. Transparent payment history and notifications for new bills."
+      },
+      {
+        "title": "Social network",
+        "description": "Internal news feed for residents. Posts, comments, likes — everything for neighbor and management communication."
+      },
+      {
+        "title": "Service marketplace",
+        "description": "Residents order apartment services directly from the app: cleaning, repairs, plumbing and other services."
+      },
+      {
+        "title": "Dispatch service",
+        "description": "Incident and malfunction reporting. Real-time request status tracking."
+      },
+      {
+        "title": "Access rights system",
+        "description": "Flexible role and permission settings for residents, staff, and guests. Full control over access levels."
+      },
+      {
+        "title": "Pass management",
+        "description": "Remote creation and management of entry passes to the complex territory. Quick access for guests and couriers."
+      },
+      {
+        "title": "Multi-user access",
+        "description": "Multiple residents per apartment. Each family member gets access with their own permissions."
+      }
+    ]
+  },
+  "audience": {
+    "eyebrow": "Audience",
+    "title": "Who is Hive for",
+    "items": [
+      {
+        "title": "Property managers",
+        "description": "Full control over residential complexes. Automation of routine processes, instant communication with residents, digital dispatch and analytics."
+      },
+      {
+        "title": "Developers",
+        "description": "Digital infrastructure for new properties out of the box. Hand over a ready-made ecosystem to property managers along with the building."
+      },
+      {
+        "title": "Residents",
+        "description": "A convenient app for everyday life: utility payments, service requests, neighbor communication, ordering services — all in one place."
+      }
+    ]
+  },
+  "screenshots": {
+    "eyebrow": "Product in action",
+    "title": "How it looks",
+    "slides": [
+      {
+        "label": "Management company dashboard",
+        "file": "Dashboard.png",
+        "type": "web"
+      },
+      {
+        "label": "Resident home screen",
+        "file": "screen3.jpeg",
+        "type": "mobile"
+      },
+      {
+        "label": "Resident tickets",
+        "file": "Tickets.png",
+        "type": "web"
+      },
+      {
+        "label": "Utility services",
+        "file": "screen2.jpeg",
+        "type": "mobile"
+      }
+    ]
+  },
+  "stats": {
+    "items": [
+      {
+        "value": "500",
+        "suffix": "+",
+        "label": "Property managers"
+      },
+      {
+        "value": "2000",
+        "suffix": "+",
+        "label": "Residential complexes"
+      },
+      {
+        "value": "150000",
+        "suffix": "+",
+        "label": "Residents"
+      },
+      {
+        "value": "99.9",
+        "suffix": "%",
+        "label": "System uptime"
+      }
+    ]
+  },
+  "calculator": {
+    "eyebrow": "Business impact",
+    "title": "Estimate the impact for your company",
+    "aptLabel": "Apartments under management",
+    "billLabel": "Average monthly utility bill per apartment, $",
+    "resultLabel": "Additional collections",
+    "unit": "per month",
+    "resultNote": "with collections growing by 5–15%",
+    "extra1": "Dispatch costs down 40–60% — AI takes over the routine",
+    "extra2": "Developer repeat sales up 15–20%",
+    "disclaimer": "Estimates based on real deployment ranges. Exact figures — at a demo for your portfolio.",
+    "unitK": "k per month"
+  },
+  "roadmap": {
+    "eyebrow": "Development horizon",
+    "title": "Where Hive is heading",
+    "items": [
+      {
+        "title": "AI operations",
+        "points": [
+          "AI concierge: resident dialogue 24/7",
+          "Ticket classification and routing",
+          "Quality control via reviews and NPS",
+          "Receivables forecasting"
+        ]
+      },
+      {
+        "title": "Digital building twin",
+        "points": [
+          "Utilities: water, gas, electricity",
+          "Equipment: elevators, pumps, units",
+          "Maintenance history and schedules",
+          "Predictive alerts before failure"
+        ]
+      },
+      {
+        "title": "Smart systems",
+        "points": [
+          "Face recognition access",
+          "CCTV in the app",
+          "Gates and license plate recognition",
+          "In-apartment climate and sensors"
+        ]
+      }
+    ],
+    "outro": "AI runs the routine — 24/7, in Uzbek and Russian. Humans step in only for exceptions."
+  },
+  "cta": {
+    "title": "Start with a free pilot on one complex",
+    "text": "Rollout in a couple of weeks: you watch the platform work with real residents and only then decide.",
+    "button": "Message on Telegram",
+    "steps": [
+      {
+        "title": "Call",
+        "text": "We discuss your portfolio and pick a complex for the pilot."
+      },
+      {
+        "title": "Branding",
+        "text": "We deploy the platform under your brand — on our side."
+      },
+      {
+        "title": "Launch",
+        "text": "Residents and staff start using it — for free."
+      }
+    ],
+    "buttonVk": "Message on VK"
+  },
+  "footer": {
+    "description": "All-in-one platform for residential complex management",
+    "navigation": "Navigation",
+    "contactsTitle": "Contacts",
+    "social": "Social media",
+    "copyright": "© 2026 Hive. All rights reserved."
+  },
+  "strip": {
+    "items": [
+      {
+        "k": "Launch",
+        "v": "Weeks, not years"
+      },
+      {
+        "k": "Apps",
+        "v": "Resident · staff · admin"
+      },
+      {
+        "k": "Brand",
+        "v": "White-label — fully yours"
+      },
+      {
+        "k": "Geography",
+        "v": "Uzbekistan · Kazakhstan · Armenia · Russia"
+      }
+    ]
+  },
+  "problem": {
+    "eyebrow": "What happens today",
+    "title": "Building delivered — resident connection lost",
+    "lede": "The developer invested in product and brand, but after handing over the keys loses the client, the data and the revenue.",
+    "items": [
+      {
+        "title": "No repeat sales",
+        "description": "A resident bought an apartment — and disappeared. No channel to sell a second one, storage, parking or services."
+      },
+      {
+        "title": "Management chaos",
+        "description": "Chats, spreadsheets, calls. Tickets get lost, complaints pile up, the brand suffers."
+      },
+      {
+        "title": "No resident data",
+        "description": "Who lives there, what they use, what they would buy — unknown."
+      },
+      {
+        "title": "Service earns nothing",
+        "description": "Operations remain a cost center instead of a revenue source."
+      }
+    ]
+  },
+  "geo": {
+    "eyebrow": "Geography",
+    "title": "The platform is already live",
+    "items": [
+      {
+        "status": "Live",
+        "title": "Uzbekistan",
+        "description": "In production: residents and management companies use the app daily."
+      },
+      {
+        "status": "Rollout",
+        "title": "Russia",
+        "description": "Deployment under the client brand and property onboarding in progress."
+      },
+      {
+        "status": "Launching",
+        "title": "Kazakhstan",
+        "description": "Launch preparation: payment localization and branding."
+      },
+      {
+        "status": "Launching",
+        "title": "Armenia",
+        "description": "First properties being prepared for go-live."
+      }
+    ]
+  },
+  "compare": {
+    "eyebrow": "Comparison",
+    "title": "In-house development is a years-long construction site",
+    "ownTitle": "In-house development",
+    "hiveTitle": "Hive white-label",
+    "own": [
+      "1.5–2 years to a working product",
+      "Permanent development, design and support team",
+      "Dozens of modules and mobile apps from scratch",
+      "Risk of never finishing or shipping a raw product",
+      "Support and evolution — forever on you"
+    ],
+    "hive": [
+      "Launch in weeks",
+      "Ready apps proven on real residents",
+      "Platform evolution is our job",
+      "Predictable cost",
+      "Focus on your business, not IT"
+    ],
+    "note": "You get a result, not a construction site."
+  }
+}
