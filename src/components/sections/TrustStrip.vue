@@ -41,6 +41,10 @@ const { t, tm } = useI18n()
     padding: 24px 24px 24px 0;
     border-right: 1px solid $color-gray-light;
 
+    &:not(:first-child) {
+      padding-left: 24px;
+    }
+
     &:last-child {
       border-right: 0;
     }
@@ -48,7 +52,12 @@ const { t, tm } = useI18n()
     @include mobile {
       padding: 16px 12px 16px 0;
 
-      &:nth-child(2n) {
+      &:nth-child(odd) {
+        padding-left: 0;
+      }
+
+      &:nth-child(even) {
+        padding-left: 16px;
         border-right: 0;
       }
 

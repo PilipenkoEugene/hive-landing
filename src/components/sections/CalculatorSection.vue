@@ -20,19 +20,14 @@ const RATE_HIGH = 0.15
 
 const loc = computed(() => (locale.value === 'en' ? 'en-US' : 'ru-RU'))
 
-// От $100 тыс. в месяц показываем в тысячах, чтобы число оставалось коротким
-const useThousands = computed(
-  () => apartments.value * avgBill.value * RATE_HIGH >= 100_000
-)
-
+// Всегда полные суммы, округлённые до сотен — без переключения на «тыс.»
 function formatAmount(value: number): string {
-  const n = useThousands.value ? value / 1000 : value
-  return n.toLocaleString(loc.value, { maximumFractionDigits: n < 10 ? 1 : 0 })
+  const n = Math.round(value / 100) * 100
+  return n.toLocaleString(loc.value, { maximumFractionDigits: 0 })
 }
 
 const lowM = computed(() => formatAmount(apartments.value * avgBill.value * RATE_LOW))
 const highM = computed(() => formatAmount(apartments.value * avgBill.value * RATE_HIGH))
-const unitKey = computed(() => (useThousands.value ? 'calculator.unitK' : 'calculator.unit'))
 
 const aptFormatted = computed(() => apartments.value.toLocaleString(loc.value))
 const billFormatted = computed(() => '$' + avgBill.value.toLocaleString(loc.value))
@@ -82,7 +77,7 @@ const billFill = computed(() => ((avgBill.value - BILL_MIN) / (BILL_MAX - BILL_M
           <span class="calc__result-label">{{ t('calculator.resultLabel') }}</span>
           <div class="calc__result-value">
             +${{ lowM }}–{{ highM }}
-            <span class="calc__result-unit">{{ t(unitKey) }}</span>
+            <span class="calc__result-unit">{{ t('calculator.unit') }}</span>
           </div>
           <p class="calc__result-note">{{ t('calculator.resultNote') }}</p>
           <div class="calc__extras">
@@ -266,17 +261,18 @@ const billFill = computed(() => ((avgBill.value - BILL_MIN) / (BILL_MAX - BILL_M
 
   &__result-value {
     font-family: $font-display;
-    font-size: 52px;
+    font-size: 44px;
     font-weight: 800;
     line-height: 1.1;
     color: $color-primary;
+    white-space: nowrap;
 
     @include tablet {
-      font-size: 40px;
+      font-size: 34px;
     }
 
     @include mobile {
-      font-size: 34px;
+      font-size: 28px;
     }
   }
 

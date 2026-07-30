@@ -252,6 +252,11 @@ function goToSlide(realIndex: number) {
   }
 
   &__swiper {
+    // веб-мокап ниже телефонов — короткие слайды центрируем по вертикали
+    :deep(.swiper-wrapper) {
+      align-items: center;
+    }
+
     :deep(.swiper-slide) {
       transition: transform 0.5s ease, opacity 0.5s ease;
       opacity: 0.7;

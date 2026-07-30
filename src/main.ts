@@ -3,23 +3,23 @@ import { createI18n } from 'vue-i18n'
 import App from './App.vue'
 import ru from './locales/ru.json'
 import en from './locales/en.json'
-import uz from './locales/uz.json'
+import kz from './locales/kz.json'
 import './assets/styles/global.scss'
 
 function detectLang(): string {
   const saved = localStorage.getItem('hive-lang')
-  if (saved && ['ru', 'uz', 'en'].includes(saved)) return saved
+  if (saved && ['ru', 'kz', 'en'].includes(saved)) return saved
   const nav = navigator.language.toLowerCase()
-  if (nav.startsWith('ru')) return 'ru'
-  if (nav.startsWith('uz')) return 'uz'
-  return 'en'
+  if (nav.startsWith('kk') || nav.startsWith('kz')) return 'kz'
+  if (nav.startsWith('en')) return 'en'
+  return 'ru'
 }
 
 const i18n = createI18n({
   legacy: false,
   locale: detectLang(),
   fallbackLocale: 'ru',
-  messages: { ru, en, uz }
+  messages: { ru, en, kz }
 })
 
 const app = createApp(App)

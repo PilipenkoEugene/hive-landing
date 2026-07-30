@@ -29,8 +29,11 @@ const navItems = [
 
 function handleNavClick(anchor: string) {
   emit('close')
-  const el = document.querySelector(anchor)
-  el?.scrollIntoView({ behavior: 'smooth' })
+  // ждём закрытия меню и снятия overflow-lock с body,
+  // иначе плавный скролл обрывается и не доезжает до секции
+  window.setTimeout(() => {
+    document.querySelector(anchor)?.scrollIntoView({ behavior: 'smooth' })
+  }, 80)
 }
 </script>
 
