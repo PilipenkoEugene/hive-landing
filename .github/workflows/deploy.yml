@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy
 
 on:
   push:
@@ -15,13 +15,14 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  # Staging-зеркало на GitHub Pages
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: npm
       - run: npm ci
       - run: npm run build
@@ -40,3 +41,33 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  # Продакшен: hiveplatform.kz на onehost (FTP)
+  # Шаг заливки пропускается, пока не заданы секреты FTP_SERVER/FTP_USERNAME/FTP_PASSWORD
+  deploy-onehost:
+    runs-on: ubuntu-latest
+    env:
+      FTP_SERVER: ${{ secrets.FTP_SERVER }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+        env:
+          BASE_PATH: /
+      - name: Upload dist via FTP
+        if: env.FTP_SERVER != ''
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          local-dir: dist/
+          server-dir: ${{ secrets.FTP_SERVER_DIR || 'public_html/' }}
+      - name: FTP secrets not set — skipping
+        if: env.FTP_SERVER == ''
+        run: echo "Секреты FTP не заданы, заливка на onehost пропущена"
