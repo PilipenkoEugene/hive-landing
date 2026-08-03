@@ -18,14 +18,7 @@ useScrollAnimation()
           class="geo__item animate-on-scroll"
           :style="{ transitionDelay: `${index * 70}ms` }"
         >
-          <span
-            class="geo__status"
-            :class="{ 'geo__status--live': index === 0 }"
-          >
-            {{ t(`geo.items[${index}].status`) }}
-          </span>
-          <h3 class="geo__name">{{ t(`geo.items[${index}].title`) }}</h3>
-          <p class="geo__desc">{{ t(`geo.items[${index}].description`) }}</p>
+          <h3 class="geo__name">{{ t(`geo.items[${index}]`) }}</h3>
         </div>
       </div>
     </div>
@@ -78,7 +71,8 @@ useScrollAnimation()
 
   &__item {
     background: $color-light;
-    padding: 26px 22px 30px;
+    padding: 34px 22px;
+    text-align: center;
     opacity: 0;
     transform: translateY(16px);
     transition: opacity 0.5s ease, transform 0.5s ease;
@@ -89,39 +83,19 @@ useScrollAnimation()
     }
 
     @include mobile {
-      padding: 20px 18px 24px;
-    }
-  }
-
-  &__status {
-    display: inline-block;
-    font-size: 10.5px;
-    font-weight: 700;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    padding: 5px 10px;
-    margin-bottom: 16px;
-    background: #f2f2f2;
-    color: $color-gray;
-
-    &--live {
-      background: $color-primary;
-      color: $color-dark;
+      padding: 22px 18px;
     }
   }
 
   &__name {
     font-family: $font-display;
-    font-size: 19px;
+    font-size: 21px;
     font-weight: 800;
     color: $color-dark;
-    margin-bottom: 8px;
-  }
 
-  &__desc {
-    font-size: 13.5px;
-    color: $color-gray;
-    line-height: 1.55;
+    @include mobile {
+      font-size: 18px;
+    }
   }
 }
 </style>

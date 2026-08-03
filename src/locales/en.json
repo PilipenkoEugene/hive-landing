@@ -131,13 +131,13 @@
     "eyebrow": "Business impact",
     "title": "Estimate the impact for your company",
     "aptLabel": "Apartments under management",
-    "billLabel": "Average monthly utility bill per apartment, $",
+    "billLabel": "Average monthly utility bill per apartment, ₸",
     "resultLabel": "Additional collections",
-    "unit": "per month",
+    "unit": "KZT per month",
     "resultNote": "with collections growing by 5–15%",
     "extra1": "Dispatch costs down 40–60% — AI takes over the routine",
     "extra2": "Developer repeat sales up 15–20%",
-    "disclaimer": "Estimates based on real deployment ranges. Exact figures — at a demo for your portfolio."
+    "disclaimer": "Estimates based on real deployment ranges."
   },
   "roadmap": {
     "eyebrow": "Development horizon",
@@ -190,8 +190,7 @@
         "title": "Launch",
         "text": "Residents and staff start using it — for free."
       }
-    ],
-    "buttonVk": "Message on VK"
+    ]
   },
   "footer": {
     "description": "All-in-one platform for residential complex management",
@@ -216,7 +215,7 @@
       },
       {
         "k": "Geography",
-        "v": "Uzbekistan · Kazakhstan · Armenia · Russia"
+        "v": "Kazakhstan · Uzbekistan · Armenia · Russia"
       }
     ]
   },
@@ -245,28 +244,12 @@
   },
   "geo": {
     "eyebrow": "Geography",
-    "title": "The platform is already live",
+    "title": "One platform — four countries",
     "items": [
-      {
-        "status": "Live",
-        "title": "Uzbekistan",
-        "description": "In production: residents and management companies use the app daily."
-      },
-      {
-        "status": "Rollout",
-        "title": "Russia",
-        "description": "Deployment under the client brand and property onboarding in progress."
-      },
-      {
-        "status": "Launching",
-        "title": "Kazakhstan",
-        "description": "Launch preparation: payment localization and branding."
-      },
-      {
-        "status": "Launching",
-        "title": "Armenia",
-        "description": "First properties being prepared for go-live."
-      }
+      "Kazakhstan",
+      "Uzbekistan",
+      "Armenia",
+      "Russia"
     ]
   },
   "compare": {

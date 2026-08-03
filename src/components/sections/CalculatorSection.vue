@@ -8,11 +8,11 @@ useScrollAnimation()
 
 const APT_MIN = 200
 const APT_MAX = 20000
-const BILL_MIN = 10
-const BILL_MAX = 100
+const BILL_MIN = 1000
+const BILL_MAX = 15000
 
 const apartments = ref(3000)
-const avgBill = ref(30)
+const avgBill = ref(5000)
 
 // Вилка дополнительной собираемости ЖКУ: +5–15% (по данным внедрений)
 const RATE_LOW = 0.05
@@ -30,7 +30,7 @@ const lowM = computed(() => formatAmount(apartments.value * avgBill.value * RATE
 const highM = computed(() => formatAmount(apartments.value * avgBill.value * RATE_HIGH))
 
 const aptFormatted = computed(() => apartments.value.toLocaleString(loc.value))
-const billFormatted = computed(() => '$' + avgBill.value.toLocaleString(loc.value))
+const billFormatted = computed(() => avgBill.value.toLocaleString(loc.value) + ' ₸')
 
 const aptFill = computed(() => ((apartments.value - APT_MIN) / (APT_MAX - APT_MIN)) * 100 + '%')
 const billFill = computed(() => ((avgBill.value - BILL_MIN) / (BILL_MAX - BILL_MIN)) * 100 + '%')
@@ -66,7 +66,7 @@ const billFill = computed(() => ((avgBill.value - BILL_MIN) / (BILL_MAX - BILL_M
               type="range"
               :min="BILL_MIN"
               :max="BILL_MAX"
-              step="5"
+              step="500"
               class="calc__slider"
               :style="{ '--fill': billFill }"
             />
@@ -76,7 +76,7 @@ const billFill = computed(() => ((avgBill.value - BILL_MIN) / (BILL_MAX - BILL_M
         <div class="calc__result">
           <span class="calc__result-label">{{ t('calculator.resultLabel') }}</span>
           <div class="calc__result-value">
-            +${{ lowM }}–{{ highM }}
+            +{{ lowM }}–{{ highM }}
             <span class="calc__result-unit">{{ t('calculator.unit') }}</span>
           </div>
           <p class="calc__result-note">{{ t('calculator.resultNote') }}</p>
@@ -261,18 +261,18 @@ const billFill = computed(() => ((avgBill.value - BILL_MIN) / (BILL_MAX - BILL_M
 
   &__result-value {
     font-family: $font-display;
-    font-size: 44px;
+    font-size: 40px;
     font-weight: 800;
     line-height: 1.1;
     color: $color-primary;
     white-space: nowrap;
 
     @include tablet {
-      font-size: 34px;
+      font-size: 31px;
     }
 
     @include mobile {
-      font-size: 28px;
+      font-size: 24px;
     }
   }
 

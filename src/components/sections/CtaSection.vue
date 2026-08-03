@@ -26,17 +26,9 @@ useScrollAnimation()
           </div>
         </div>
         <div class="cta__actions">
-          <BaseButton tag="a" href="https://t.me/dmitry_chulkov" target="_blank" rel="noopener">
+          <BaseButton tag="a" href="https://t.me/dmitry_hive" target="_blank" rel="noopener">
             {{ t('cta.button') }}
           </BaseButton>
-          <a
-            class="cta__secondary"
-            href="https://vk.ru/dmitry_chulkov_dev"
-            target="_blank"
-            rel="noopener"
-          >
-            {{ t('cta.buttonVk') }}
-          </a>
         </div>
       </div>
     </div>
@@ -176,29 +168,5 @@ useScrollAnimation()
     }
   }
 
-  &__secondary {
-    @include mobile {
-      width: 100%;
-    }
-  }
-
-  &__secondary {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 15px 32px;
-    border: 1.5px solid rgba(255, 255, 255, 0.25);
-    border-radius: $border-radius-sm;
-    color: $color-light;
-    font-size: $font-size-body;
-    font-weight: 700;
-    white-space: nowrap;
-    transition: all 0.3s ease;
-
-    &:hover {
-      border-color: $color-light;
-      background: rgba(255, 255, 255, 0.06);
-    }
-  }
 }
 </style>
